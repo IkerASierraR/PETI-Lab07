@@ -55,7 +55,7 @@ def captura(txt, comando, png):
     ax.set_ylim(0, alto + 2)
     ax.add_patch(plt.Rectangle((0, alto + 1), 1, 1, color="#333333"))
     for k, c in enumerate(("#FF5F56", "#FFBD2E", "#27C93F")):
-        ax.add_patch(plt.Circle((0.012 + k * 0.016, alto + 1.5), 0.25, color=c, transform=ax.transData))
+        ax.text(0.012 + k * 0.014, alto + 1.5, "●", ha="center", va="center", color=c, fontsize=10)
     ax.text(0.5, alto + 1.5, "Windows PowerShell · " + txt, ha="center", va="center", color="#BBBBBB", fontsize=8,
             family="monospace")
     for n, l in enumerate(lineas):

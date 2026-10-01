@@ -1,0 +1,9 @@
+b8e555e (HEAD -> main) S07: anexos A-F, graficos PESTEL, EFI-EFE, matriz IE y priorizacion
+da52e8e (tag: v0.7) S07: PESTEL, matrices EFI y EFE, FODA cruzado y estrategias — secciones 3.3 a 3.5
+3ffce08 S07: Paso E - corrige las 5 fallas de la validacion
+02011b2 S07: Paso E - script de validacion y registro de la primera ejecucion (5 fallas)
+cc2eba4 S07: Paso D - matriz de trazabilidad evidencia, factor, estrategia, objetivo y proyecto
+2a4daab S07: Paso C - FODA cruzado con 12 estrategias y priorizacion preliminar
+d1b164f S07: Paso B - matrices EFI y EFE con pesos justificados y script de calculo
+4dd97b2 S07: Paso A - analisis PESTEL con evidencia, intensidad y decision que obliga
+21b56d2 S07: estructura del repositorio y README del taller
