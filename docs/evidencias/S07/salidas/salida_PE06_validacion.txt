@@ -1,0 +1,44 @@
+========================================================================
+PE06 · VALIDACIÓN DEL TALLER 07 · DICOSUR
+========================================================================
+
+Comprobación 1 · Cada factor viene de una sección del diagnóstico, citada
+  [OK] EFI: 13/13 factores con sección de origen
+  [OK] EFE: 12/12 factores con sección de origen
+  [OK] PESTEL: 6/6 dimensiones con al menos un factor
+  [OK] PESTEL: 9/9 factores con fuente institucional y año
+  [OK] PESTEL: 0 factores sin «decisión que obliga»
+  [OK] EFE: las citas a la Sección 3.3 apuntan a factores PESTEL existentes
+
+Comprobación 2 · Pesos que suman uno y calificaciones fundamentadas
+  [OK] EFI: suma de pesos = 1.00
+  [OK] EFI: calificaciones dentro de la escala 1-4
+  [OK] EFI: cada peso y cada calificación tienen justificación
+  [OK] EFE: suma de pesos = 1.00
+  [OK] EFE: calificaciones dentro de la escala 1-4
+  [OK] EFE: cada peso y cada calificación tienen justificación
+  [OK] EFI: fortalezas calificadas 3-4 y debilidades 1-2
+  [OK] EFE: cada calificación mide la respuesta de la organización, no la gravedad
+
+Comprobación 3 · Cada estrategia nombra los códigos que cruza
+  [OK] FODA cruzado: 12 estrategias · FO 3 · FA 3 · DO 3 · DA 3
+  [OK] E-01 (FO, F2 + O1 + O2)
+  [OK] E-02 (FO, F1 + F6 + O4)
+  [OK] E-03 (FO, F3 + F4 + O5)
+  [OK] E-04 (FA, F1 + A1)
+  [OK] E-05 (FA, F4 + A2 + A4)
+  [OK] E-06 (FA, F5 + F2 + A1)
+  [OK] E-07 (DO, D1 + O2 + O3)
+  [OK] E-08 (DO, D3 + O1)
+  [OK] E-09 (DO, D7 + O2)
+  [OK] E-10 (DA, D2 + A5)
+  [OK] E-11 (DA, D5 + A3 + A6)
+  [OK] E-12 (DA, D6 + A2 + A7)
+
+Trazabilidad
+  [OK] PE05_trazabilidad.csv: 16 filas (mínimo 12)
+  [OK] PE05_trazabilidad.csv: todos los factores existen en la EFI o la EFE
+  [OK] PE05_trazabilidad.csv: cubre 12/12 estrategias
+
+========================================================================
+RESULTADO: todas las comprobaciones pasaron.

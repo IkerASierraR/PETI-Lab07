@@ -1,0 +1,55 @@
+========================================================================
+PE02 · MATRICES EFI Y EFE · DICOSUR
+========================================================================
+
+1. Comprobación de pesos, escalas y origen
+  [OK] EFI: los pesos suman 1.00
+  [OK] EFE: los pesos suman 1.00
+
+2. Matriz EFI (calificación 1-4: intensidad del factor interno)
+id                                               factor  peso  calificacion  ponderado
+F1       Red de distribución propia con entrega en 24 h  0.10             4       0.40
+F2          Base histórica de compras de 8 400 clientes  0.09             4       0.36
+F3                      Facturación electrónica estable  0.05             3       0.15
+F4              ERP integrado en los procesos centrales  0.08             3       0.24
+F5                       Cartera de clientes fidelizada  0.07             3       0.21
+F6               Equipo de TI orientado a la innovación  0.05             3       0.15
+D1                      Ausencia de capacidad analítica  0.09             1       0.09
+D2                Dependencia de un único desarrollador  0.08             1       0.08
+D3                         Baja adopción del portal B2B  0.07             2       0.14
+D4                  Ruteo gestionado en hoja de cálculo  0.08             2       0.16
+D5 Ausencia de programa de cumplimiento de datos person  0.08             1       0.08
+D6 Infraestructura del ERP sin redundancia ni prueba de  0.09             1       0.09
+D7                     Silos de información de clientes  0.07             2       0.14
+
+  Fortalezas: 1.51 · Debilidades: 0.78 · TOTAL EFI = 2.29
+  -> posición interna débil: las debilidades pesan más que las fortalezas (promedio de referencia 2.5)
+
+3. Matriz EFE (calificación 1-4: qué tan bien RESPONDE la organización)
+id                                               factor  peso  calificacion  ponderado
+O1                    Acceso a internet de los clientes  0.10             2       0.20
+O2   Herramientas de analítica en la nube de bajo costo  0.07             1       0.07
+O3                      Oferta local de talento técnico  0.05             2       0.10
+O4                       Crecimiento económico regional  0.08             3       0.24
+O5               Digitalización de las compras públicas  0.05             2       0.10
+A1      Entrada de mayoristas con plataformas digitales  0.11             2       0.22
+A2 Fin de soporte de la plataforma del servidor del ERP  0.15             1       0.15
+A3   Nuevo Reglamento de Protección de Datos Personales  0.13             1       0.13
+A4                                Volatilidad cambiaria  0.07             2       0.14
+A5                        Rotación del personal técnico  0.09             1       0.09
+A6                Exigencias de uso ético de datos e IA  0.06             1       0.06
+A7                                  Disposición de RAEE  0.04             2       0.08
+
+  Oportunidades: 0.71 · Amenazas: 0.87 · TOTAL EFE = 1.58
+  -> respuesta deficiente: la organización no aprovecha las oportunidades ni se defiende de las amenazas (promedio de referencia 2.5)
+
+4. Posición en la matriz interna-externa (IE)
+  EFI 2.29 · EFE 1.58 -> celda VIII: cosechar o desinvertir (posición defensiva)
+
+5. Archivos generados
+  docs/evidencias/S07/salidas/PE02_resumen_matrices.csv
+  docs/evidencias/S07/salidas/PE02_matrices_calculadas.csv
+  docs/evidencias/S07/salidas/PE02_matrices_efi_efe.png
+  docs/evidencias/S07/salidas/PE02_matriz_ie.png
+
+[OK] Matrices consistentes.

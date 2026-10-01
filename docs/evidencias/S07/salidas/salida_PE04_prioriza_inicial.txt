@@ -1,0 +1,38 @@
+[ALERTA] Códigos que no existen en la EFI ni en la EFE (pesan 0): A8
+
+ orden   id Tipo  peso_factores  puntaje                                                                       Proyecto candidato
+     1 E-12   DA           0.28    0.378            P-03 Continuidad de la infraestructura (respaldo, restauración y redundancia)
+     2 E-05   FA           0.30    0.360                                                  P-01 Migración de la plataforma del ERP
+     3 E-06   FA           0.27    0.324                                                      P-11 CRM y programa de fidelización
+     4 E-11   DA           0.21    0.284                            P-02 Programa de cumplimiento de datos personales y uso ético
+     5 E-01   FO           0.26    0.260                                        P-04 Canal digital B2B con motor de recomendación
+     6 E-10   DA           0.19    0.256                                      P-09 Gestión del conocimiento y de la configuración
+     7 E-04   FA           0.21    0.252 P-05 Sistema de ruteo y trazabilidad de despacho (módulo de seguimiento para el cliente)
+     8 E-07   DO           0.21    0.231                                              P-06 Gobierno del dato y tablero de gestión
+     9 E-02   FO           0.23    0.230                                         P-05 Sistema de ruteo y trazabilidad de despacho
+    10 E-08   DO           0.17    0.187                                    P-07 Rediseño móvil del portal y programa de adopción
+    11 E-03   FO           0.18    0.180                      P-10 Integración del ERP con catálogos electrónicos de Perú Compras
+    12 E-09   DO           0.14    0.154                                                  P-08 Maestro único de datos de clientes
+
+Distribución por tipo:
+ Tipo
+DA    3
+DO    3
+FA    3
+FO    3
+
+Puntaje medio por tipo:
+ Tipo
+FA    0.312
+DA    0.306
+FO    0.223
+DO    0.191
+
+Cinco primeras estrategias por tipo: E-12 (DA), E-05 (FA), E-06 (FA), E-11 (DA), E-01 (FO)
+
+→ Predominan DA y FA en la parte alta: la organización está en posición defensiva;
+  el PETI debe priorizar continuidad y cumplimiento antes que transformación.
+
+Archivos generados:
+  03_diagnostico/PE04_estrategias_priorizadas.csv
+  docs/evidencias/S07/salidas/PE04_priorizacion.png
