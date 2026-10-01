@@ -253,9 +253,17 @@ def md_a_docx(doc, md):
             t = doc.add_table(rows=len(filas), cols=len(filas[0]))
             t.style = "Table Grid"
             t.alignment = WD_TABLE_ALIGNMENT.CENTER
+            t.autofit = False
+            # ancho mínimo para la palabra más larga; el resto se reparte según el texto más largo
+            ncol = len(filas[0])
+            minimo = [0.17 * max(len(w) for f in filas for w in (f[k].split() or [""])) + 0.35 for k in range(ncol)]
+            pref = [max(len(f[k]) for f in filas) ** 0.75 for k in range(ncol)]
+            libre = max(17.4 - sum(minimo), 0)
+            anchos = [Cm(m + libre * x / sum(pref)) for m, x in zip(minimo, pref)]
             for a, fila in enumerate(filas):
                 for b, val in enumerate(fila):
                     c = t.cell(a, b)
+                    c.width = anchos[b]
                     c.text = ""
                     texto_rico(c.paragraphs[0], val)
                     for r in c.paragraphs[0].runs:
