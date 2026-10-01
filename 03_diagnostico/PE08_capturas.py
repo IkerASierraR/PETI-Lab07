@@ -73,9 +73,9 @@ def vista_previa(xlsx, hoja, columnas, anchos, png, titulo, filas=None):
     df = pd.read_excel(S07 / xlsx, sheet_name=hoja, header=3)[columnas].dropna(how="all")
     if filas:
         df = df.head(filas)
-    celdas = [[textwrap.fill(str(v), a) for v, a in zip(fila, anchos)] for fila in df.itertuples(index=False)]
+    celdas = [[textwrap.fill(str(v), max(int(a * 0.8), 3)) for v, a in zip(fila, anchos)] for fila in df.itertuples(index=False)]
     alto = sum(max(c.count("\n") + 1 for c in fila) for fila in celdas)
-    fig = plt.figure(figsize=(13, 1.2 + alto * 0.2))
+    fig = plt.figure(figsize=(10, 1.0 + alto * 0.21))
     ax = fig.add_axes([0.01, 0.01, 0.98, 0.9])
     ax.axis("off")
     fig.suptitle(titulo, fontsize=12, fontweight="bold", color="#1F2D5C", x=0.01, ha="left")
@@ -83,7 +83,7 @@ def vista_previa(xlsx, hoja, columnas, anchos, png, titulo, filas=None):
                  loc="upper left", cellLoc="left",
                  colWidths=[a / sum(anchos) for a in anchos])
     t.auto_set_font_size(False)
-    t.set_fontsize(7.5)
+    t.set_fontsize(8)
     for (r, c), cel in t.get_celld().items():
         n = 1 if r == 0 else max(v.count("\n") + 1 for v in celdas[r - 1])
         cel.set_height(0.95 / (alto + 1) * max(n, 1))
