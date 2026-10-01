@@ -6,6 +6,7 @@ Puntaje = suma de los pesos (EFI/EFE) de los factores que cruza la estrategia
 Uso (desde la raíz del repositorio):
     python 03_diagnostico/PE04_prioriza_estrategias.py
 """
+import textwrap
 from pathlib import Path
 
 import matplotlib
@@ -56,12 +57,13 @@ else:
 colores = {"DA": "#C0392B", "FA": "#E67E22", "DO": "#2E86C1", "FO": "#27AE60"}
 fig, ax = plt.subplots(figsize=(10, 5.5))
 orden = e.iloc[::-1]
-ax.barh([f"{i} · {p[:42]}" for i, p in zip(orden.id, orden["Proyecto candidato"])], orden.puntaje,
+ax.barh([f"{i} · {textwrap.shorten(p, 44, placeholder='…')}" for i, p in zip(orden.id, orden["Proyecto candidato"])], orden.puntaje,
         color=[colores[t] for t in orden.Tipo])
 for y, v in enumerate(orden.puntaje):
     ax.text(v + 0.004, y, f"{v:.3f}", va="center", fontsize=8)
 ax.set_xlabel("Puntaje = Σ pesos de los factores cruzados × bono por tipo")
 ax.set_title("DICOSUR · priorización preliminar de estrategias", fontweight="bold")
+ax.set_xlim(0, orden.puntaje.max() * 1.12)
 ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=c) for c in colores.values()], labels=list(colores.keys()),
           loc="lower right")
 ax.grid(axis="x", alpha=0.3)

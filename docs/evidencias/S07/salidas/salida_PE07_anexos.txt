@@ -1,0 +1,8 @@
+PE07 · Anexos y figuras generados:
+  docs/evidencias/S07/anexo_A_pestel.xlsx
+  docs/evidencias/S07/anexo_B_matrices_efi_efe.xlsx
+  docs/evidencias/S07/anexo_C_foda_cruzado.png
+  docs/evidencias/S07/anexo_D_estrategias_priorizadas.xlsx
+  docs/evidencias/S07/anexo_E_trazabilidad.xlsx
+  docs/evidencias/S07/anexo_F_secciones_3_3_a_3_5.pdf
+  docs/evidencias/S07/salidas/PE01_pestel_intensidad.png
