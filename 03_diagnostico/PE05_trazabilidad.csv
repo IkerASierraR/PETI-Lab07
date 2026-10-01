@@ -1,0 +1,17 @@
+Evidencia del diagnóstico,Sección de origen,Factor F/D/O/A,Estrategia,Objetivo (Sección 6.2),Proyecto (Sección 7.1)
+"Las ESU de Windows Server 2012 R2, sistema del servidor del ERP, terminan el 13/10/2026",Sección 3.3 PE-05,A2,"E-05, E-12",OE-01 Asegurar la continuidad operativa,P-01 Migración de la plataforma del ERP
+Respaldo diario en disco local sin prueba de restauración en 12 meses,Sección 3.1.4 inventario de infraestructura,D6,E-12,OE-01 Asegurar la continuidad operativa,P-03 Continuidad de la infraestructura
+Sin registro de actividades de tratamiento para los datos de 8 400 clientes,Sección 3.1.5 capacidad «Cumplimiento»,D5,E-11,OE-02 Cumplir el marco legal de datos,P-02 Programa de cumplimiento de datos personales
+D. S. 016-2024-JUS vigente desde el 30/03/2025; multas de hasta 100 UIT,Sección 3.3 PE-09,A3,E-11,OE-02 Cumplir el marco legal de datos,P-02 Programa de cumplimiento de datos personales
+Reglamento de la Ley 31814 vigente desde el 22/01/2026,Sección 3.3 PE-08,A6,E-11,OE-02 Cumplir el marco legal de datos,P-02 Programa de cumplimiento (política de uso ético)
+Un solo desarrollador conoce el código del portal B2B,Sección 3.1.3 VRIO,D2,E-10,OE-06 Reducir el riesgo operativo,P-09 Gestión del conocimiento y de la configuración
+2 de 8 personas de TI renunciaron en 12 meses (25 %),Sección 3.2.2 mercado laboral de TI,A5,E-10,OE-06 Reducir el riesgo operativo,P-09 Gestión del conocimiento y de la configuración
+El ruteo se gestiona en hoja de cálculo y el despacho concentra el 22 % del costo operativo,Sección 3.1.1 CV-03,D4 · F1,E-02,OE-03 Reducir el costo de despacho,P-05 Sistema de ruteo y trazabilidad de despacho
+Dos mayoristas de Arequipa con aplicación de pedidos ya atienden bodegas de Tacna,Sección 3.2.1 Porter,A1,"E-04, E-06",OE-07 Retener y ampliar clientes,P-05 Trazabilidad para el cliente · P-11 CRM y fidelización
+El ERP conserva el historial de 8 400 clientes desde 2016,Sección 3.1.3 VRIO,F2,"E-01, E-06",OE-04 Aumentar la participación del canal digital,P-04 Canal digital B2B con motor de recomendación
+"60,1 % de los hogares del país con internet (INEI, II trim. 2025)",Sección 3.3 PE-04,O1,"E-01, E-08",OE-04 Aumentar la participación del canal digital,P-04 Canal digital B2B · P-07 Rediseño móvil
+Solo el 6 % de los pedidos de 2025 ingresó por el portal B2B,Sección 3.1.1 CV-05,D3,E-08,OE-04 Aumentar la participación del canal digital,P-07 Rediseño móvil del portal y programa de adopción
+Reportes gerenciales armados a mano en 3 días al cierre de cada mes; ningún tablero,Sección 3.1.5 capacidad «Analítica»,D1,E-07,OE-05 Habilitar la decisión basada en datos,P-06 Gobierno del dato y tablero de gestión
+"Power BI Pro a US$ 14 por usuario al mes (Microsoft, 2025)",Sección 3.3 PE-06,O2,"E-07, E-09",OE-05 Habilitar la decisión basada en datos,P-06 Gobierno del dato · P-08 Maestro de clientes
+Tres áreas mantienen hojas de cálculo propias con datos de clientes,Sección 2.4 supuesto básico #3,D7,E-09,OE-05 Habilitar la decisión basada en datos,P-08 Maestro único de datos de clientes
+El 9 % de las ventas de 2025 se facturó a entidades públicas; PNTD al 2030,Sección 3.3 PE-01,O5 · F3 · F4,E-03,OE-07 Retener y ampliar clientes,P-10 Integración del ERP con catálogos electrónicos
